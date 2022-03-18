@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NMoonraker", "NMoonraker\NMoonraker.csproj", "{55528C6C-2DAA-4106-B02F-643AD92A3AA7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMoonraker.Common", "NMoonraker.Common\NMoonraker.Common.csproj", "{455D1454-923E-4F6A-BCAB-3A6E83D5AF88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMoonraker", "NMoonraker.csproj", "{55528C6C-2DAA-4106-B02F-643AD92A3AA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{55528C6C-2DAA-4106-B02F-643AD92A3AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55528C6C-2DAA-4106-B02F-643AD92A3AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55528C6C-2DAA-4106-B02F-643AD92A3AA7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{455D1454-923E-4F6A-BCAB-3A6E83D5AF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{455D1454-923E-4F6A-BCAB-3A6E83D5AF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{455D1454-923E-4F6A-BCAB-3A6E83D5AF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{455D1454-923E-4F6A-BCAB-3A6E83D5AF88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
