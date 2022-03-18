@@ -21,3 +21,9 @@ install one.  The following clients are currently available:
 - [Fluidd](https://github.com/fluidd-core/fluidd) by Cadriel
 - [KlipperScreen](https://github.com/jordanruthe/KlipperScreen) by jordanruthe
 - [mooncord](https://github.com/eliteSchwein/mooncord) by eliteSchwein
+
+# 
+## **❗ Notes:**
+
+  - 2022-03-18 Fluidd can start with it, even though it is dummy data.
+  ![Fluidd starts](doc/images/fluidd_starts.png "Fluidd starts")
