@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddSingleton<IServerService, ServerService>();
 builder.Services.AddSingleton<IWebSocketService, WebSocketService>();
+builder.Services.AddSingleton<IKlippyConnection, KlippyConnection>();
+builder.Services.AddSingleton<IKlippyApis, KlippyApis>();
 
 builder.Services.AddCors(option => option.AddPolicy("cors",
   policy => policy.AllowAnyHeader()
